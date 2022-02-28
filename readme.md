@@ -1,4 +1,4 @@
-### kubernates
+## kubernates
 
 ### kubernates architechture and terminology :
 
@@ -11,4 +11,15 @@
 - Control Plan(master): Set of container that manage the cluster
   - Includes API server,scheduler,controller manager,etcd,core DNS and more
   - Sometimes called the "master"
-- 
+### Install Kubernates Locally :
+- Docker Desktop : Enable in settings
+  - Sets up everything inside Docker's existing Linux VM
+- Docker ToolBox on Windows: MiniKube
+  - Uses VirtualBox to make Linux VM
+- Own Linux Host or VM : MicroK8's
+  - Installs Kubernates right on the OS
+- Kubernates In A Browser
+  - Try http://play-with-k8s.com or katacoda.com in browser
+  - Easy to get started
+  - Doesn't keep your enviroment
+ 
